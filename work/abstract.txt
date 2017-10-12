@@ -1,0 +1,11 @@
+Abstract
+
+Technology is becoming a vital part of our society. Programming in particular is a great ability
+to have in today's age. Learning to program for a beginner can be difficult for some and easier for
+others. Exception handling in some cases can be a confusing aspect of writing code. There are
+countless exceptions out there that can be harmful to your code if they are not addressed. Automatic exceptions would
+this aspect of programming early would make coding much easier. Teaching where exceptions
+should be placed and why they should be placed. A tool for placing exceptions would make  programming much more efficient. This tool could be useful for not only programmers, but teachers as well. For beginners in
+programming learning exceptions can be tedious and frustrating, as exceptions are a vital part of
+most languages. For many reasons exceptions are being ignored or only used for debugging purposes. A successful programmer needs to be able to understand and utilize exceptions.
+A tool is necessary to teach this in a day and age where technology is at the forefront. There are plenty of debugging tool out there that can help with placing exceptions, but you must know what exception is needed for each circumstance. A tool that can automatically found out what exception is needed would save an enormous amount of time for a programmer. This paper suggests an add on for an existing debugging tool to automatically place exceptions into your code while debugging it. This tool would be debugging and detecting exceptions to place them in python.

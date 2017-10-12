@@ -1,0 +1,105 @@
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\topmargin 0.0in
+\setlength{\textwidth} {420pt}
+\setlength{\textheight} {620pt} 
+\setlength{\oddsidemargin} {20pt}
+\setlength{\marginparwidth} {72in}
+
+
+\usepackage{fancyhdr} 
+\usepackage{url}
+\usepackage{graphicx}
+
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+
+\def\widow#1{\vskip #1\vbadness10000\penalty-200\vskip-#1}
+
+\clubpenalty=10000  % Don't allow orphans
+\widowpenalty=10000 % Don't allow widows
+
+\usepackage{latexsym}
+
+\def\littlesection#1{
+\widow{2cm}
+\vskip 0.5cm
+\noindent{\bf #1}
+\vskip 0.0001cm 
+}
+
+\pagestyle{fancyplain}
+
+\newcommand{\tstamp}{\today}   
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\lhead[\Section \thesection]            {\fancyplain{}{\rightmark}}
+\chead[\fancyplain{}{}]                 {\fancyplain{}{}}
+\rhead[\fancyplain{}{\rightmark}]       {\fancyplain{}{\thepage}}
+\cfoot[\fancyplain{\thepage}{}]         {\fancyplain{\thepage}{}}
+
+\newlength{\myVSpace}% the height of the box
+\setlength{\myVSpace}{1ex}% the default, 
+\newcommand\xstrut{\raisebox{-.5\myVSpace}% symmetric behaviour, 
+  {\rule{0pt}{\myVSpace}}%
+}
+
+\renewcommand{\baselinestretch}{1.0}    % must go before the begin of doc
+
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.1in}
+
+\begin{document}
+
+
+% handle widows appropriately
+\def\widow#1{\vskip #1\vbadness10000\penalty-200\vskip-#1}
+
+% build the title section
+
+\makeatletter
+
+\def\maketitle{%
+  %\null
+  \thispagestyle{empty}%
+  %\vfill
+  \begin{center}%\leavevmode
+    %\normalfont
+    {\Huge \@title\par}%
+    %\hrulefill\par
+    {\normalsize \@author\par}%
+    \vskip .4in
+%    {\Large \@date\par}%
+  \end{center}%
+  %\vfill
+  %\null
+  %\cleardoublepage
+
+  }
+
+\makeatother
+
+\vspace*{-1.1in}
+\title{Dean Exemption Letter}  % CHANGE!
+
+% build the author section
+\author{
+        Bryce Evans\\  % CHANGE!
+        Department of Computer Science\\
+        Allegheny College \\
+        {\tt evansb2@allegheny.edu}  \\  % CHANGE!
+        \vspace*{.1in} \today \\ \vspace*{.1in}
+}
+
+\maketitle       % use the default title stuff
+
+% Default "abstract" environment is too small; customize one instead:
+\section{The Comrade System for Multi-Robot Autonomous Landmine Detection in Post-Conflict Regions}
+The purpose of this research is to demine a location with the help of robots. The background reveals the immense research already invested in this subject. The proposed research is trying to save not just people's lives, but civilians. Over 4,000 deaths occured in 2000 due to the lack of demining. The related literature shows the reader how important this task truly is. There is alread so much research dedicated to this project. The readings also sahre the number of deaths that occured from land mines. The system described is called Comrade. The system ranks the kind of sensors needed in this particular situation according to risk to humans. Then once an area is found multiple robots are used to determine the landmine. The different robots analyse the object then the data collected to determine if there is a landmine or not. The Comrades perform in three major functions: Spread out in environment to search, each robot determines a schedule to perform certain tasks so energy expended is reduced, share information of an object of interest obtained by different objects. The results are just information that was discovered when develoing the Comrade System. Its goal is to be ground-work for further research.
+\section{Monitoring the Well-Being of a Person Using a Robotic-Sensor Framework}
+The purpose of this research was to help the disablied take care of themselves more effectively with the helps of robots and sensors. The background given explained the importance and the already existing research into robots. Since one of the leading reasons for researching robots is helping the disablied, the reader knows the revelance in this research. All science that can contribute to the betterment of humanity is important. Also it is especially interesting because it involves replicating human responses from a robot. The related literature just furthers the argument of how using robots for self sufficiency is becoming increasingly important. The related reading reveals that people are living longer with different illnesses. Therefore, robots are becoming increasingly relevant in healthcare. The methods describe using the combination of robots and sensors to take care of the disablied. The sensors record data and transmitt the data to the robots who have a database. The robots analyze the data and determine a course of action according to the data. The results show the accuracy of the robot sensory system. This could mean the lives of those disablied can become self sufficient with little human contact. 
+\end{document}
