@@ -1,0 +1,51 @@
+Exception Handling: A Field Study in Java and .NET
+Bruno Cabral and Paulo Marques*
+
+Why Do Developers Neglect Exception Handling?
+Hina Shah, Carsten Görg, Mary Jean Harrold
+
+https://www.pylint.org/
+
+
+https://pylint.readthedocs.io/en/latest/how_tos/plugins.html
+
+
+https://pylint.readthedocs.io/en/latest/how_tos/custom_checkers.html#write-a-checker
+
+
+http://pychecker.sourceforge.net/
+
+
+When a Mouse Eats a Python
+Smalltalk-style Runtime Development for Python and Ruby
+
+
+Finding and Preventing Run-Time Error Handling Mistakes Westley Weimer George C. Necula*
+
+
+Automatic Documentation Inference for Exceptions
+Raymond P.L. Buse and Westley R. Weimer*
+
+
+Where Do Developers Log?
+An Empirical Study on Logging Practices in Industry
+Qiang Fu1
+, Jieming Zhu2
+, Wenlu Hu3
+, Jian-Guang Lou1
+, Rui Ding1
+, Qingwei Lin1
+,
+Dongmei Zhang1
+, Tao Xie4
+
+
+https://stackoverflow.com/questions/4990718/python-about-catching-any-exception
+
+
+
+https://stackoverflow.com/questions/13944923/cant-catch-exception-indexerror-in-python
+
+
+
+https://stackoverflow.com/questions/9256013/python-indexerror-list-index-out-of-range

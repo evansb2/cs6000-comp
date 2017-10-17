@@ -1,6 +1,6 @@
 #user input string
 STR_IN = raw_input("Enter A String In Caps\n")
-count = a + b
+#count = a + b
 #dna check function
 def DNAcheck(string):
     print "Checking for DNA"
